@@ -1,0 +1,76 @@
+<!--
+Legend theme for Xoops 2.0.2
+Created by Christian Gundersson | http://www.gundersson.com
+Contact: public@gundersson.com
+Licenced under Gnu General Public License (Your choise of version)
+License terms can be found at http://www.gnu.org 
+Enjoy :)
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<{$xoops_langcode}>" lang="<{$xoops_langcode}>">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=<{$xoops_charset}>" />
+<meta http-equiv="content-language" content="<{$xoops_langcode}>" />
+<meta name="robots" content="<{$xoops_meta_robots}>" />
+<meta name="keywords" content="<{$xoops_meta_keywords}>" />
+<meta name="description" content="<{$xoops_meta_description}>" />
+<meta name="rating" content="<{$xoops_meta_rating}>" />
+<meta name="author" content="<{$xoops_meta_author}>" />
+<meta name="copyright" content="<{$xoops_meta_copyright}>" />
+<meta name="generator" content="XOOPS" />
+<title><{$xoops_sitename}> - <{$xoops_pagetitle}></title>
+<link href="<{$xoops_url}>/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="stylesheet" type="text/css" media="all" href="<{$xoops_url}>/xoops.css" />
+<link rel="stylesheet" type="text/css" media="all" href="<{$xoops_themecss}>" />
+<!-- RMV: added module header -->
+<{$xoops_module_header}>
+<script type="text/javascript">
+<!--
+<{$xoops_js}>
+//-->
+</script>
+</head>
+<body>
+<div class="header">
+<a href="<{$xoops_url}>/"><img style="float:left;margin-right: 40px" src="<{$xoops_imageurl}>logo.gif" alt="Gundersson(dot)com" /></a>
+<{$xoops_banner}>
+</div>
+<div class="headerbar"><{$xoops_slogan}></div>
+<table class="contentsection" cellspacing="0">	<tr>
+<td class="leftrow">
+<!-- Start printing left row blocks -->
+<{foreach item=block from=$xoops_lblocks}>
+<fieldset class="block">
+<legend class="blocktitle"><{$block.title}></legend>
+<div class="blockcontent"><{$block.content}></div>
+</fieldset>
+<{/foreach}>
+<!-- End printing left row blocks -->
+</td>
+<td class="middlerow">
+<!-- Include file centerblocks.html if centerblocks are to be presented -->
+<{if $xoops_showcblock == 1}>
+<{include file="legend/centerblocks.html"}>
+<{/if}>
+<!-- Print the contents of the page currently showing -->
+<{$xoops_contents}>
+</td>
+<{if $xoops_showrblocks == 1}>
+<td class="rightrow">
+<!-- Start printing the right row blocks, if any -->
+<{foreach item=block from=$xoops_rblocks}>
+<fieldset class="block">
+<legend class="blocktitle"><{$block.title}></legend>
+<div class="blockcontent"><{$block.content}></div>
+</fieldset>
+<{/foreach}>
+<!-- Stop printing right row blocks -->
+</td>
+<{/if}>
+</tr></table>
+<!-- Print the footer section -->
+<div class="footer"><{$xoops_footer}></div>
+</body>
+</HTML>
+
+

@@ -1,0 +1,182 @@
+/*
+	Stylesheet for Xoops 2.0.2 theme Legend
+	Made by Christian Gundersson | http://www.gundersson.com
+	Contact: public@gundersson.com
+	Licenced under Gnu General Public License (Version of your choise)
+	Licence terms can be found at http://www.gnu.org
+*/
+
+
+
+
+/* Start of page layout settings */
+body{background-color: #ffffff;
+	color: #000000;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 12px}
+
+div.header{background-color: #ece8e3;
+	color: #745d42;
+	height: 70px;
+	padding: 10px 10px 10px 10px;
+	margin: 0px 0px 0px 0px;
+	border-top: 1px solid #555555}
+
+div.headerbar{background-color: #dcdcdc;
+	color: #555555;
+	padding: 5px 0px 5px 15px;
+	margin: 0px 0px 0px 0px;
+	border-top: 1px solid #555555;
+	border-bottom: 1px solid #555555;
+	vertical-align: middle}
+
+table.contentsection{background-color: #ffffff;
+	color: #000000;
+	width: 100%;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px}
+
+td.leftrow{background-color: #ffffff;
+	color: #000000;
+	width: 170px;
+	padding: 10px 10px 10px 10px;
+	vertical-align: top}
+
+td.middlerow{background-color: #ffffff;
+	color: #000000;
+	padding: 15px 10px 10px 10px;
+	vertical-align: top}
+
+td.rightrow{background-color: #ffffff;
+	color: #000000;
+	width: 170px;
+	padding: 10px 10px 10px 10px;
+	vertical-align: top}
+
+div.footer{background-color: #dcdcdc;
+	color: #555555;
+	padding: 5px 0px 5px 0px;
+	margin-bottom: 15px;
+	border-top: 1px solid #555555;
+	border-bottom: 1px solid #555555;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold}
+/* End of page layout settings */
+
+
+
+/* Start of blocksettings */
+fieldset.block{}
+
+legend.blocktitle{color: #c31d1d}
+
+div.blockcontent{}
+/* End of blocksettings */
+
+
+/* Start of centerblocks settings */
+table.centerblocks{background-color: #dcdcdc;
+	color: #555555;
+	margin-bottom: 15px;
+	border: 1px solid #555555}
+
+td.centerblock{padding: 5px 5px 5px 5px}
+/* End of centerblocks settings */
+
+
+/* Start of various text settings */
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+ul { margin: 2px; padding: 2px; list-style: decimal inside; text-align: left;}
+li { margin-left: 2px; list-style: square inside; color: #2F5376}
+/* End of various text settings */
+
+/* Start of various link settings */
+a {color: #666666; text-decoration: none; font-weight: bold; background-color: transparent;}
+a:hover {color: #ff6600;}
+
+td#mainmenu a{color: #555555; width: 100%; padding: 2px 2px 2px 2px; border-top: 1px solid #ffffff; border-bottom: 1px solid #ffffff; display: block}
+td#mainmenu a:hover{color: blue; border-top: 1px solid #000000; border-bottom: 1px solid #000000}
+td#mainmenu a.menuTop{color: #c31d1d}
+td#mainmenu a.menuMain{}
+td#mainmenu a.menuSub{}
+
+td#usermenu a{color: #555555; width: 100%; padding: 2px 2px 2px 2px; border-top: 1px solid #ffffff; border-bottom: 1px solid #ffffff; display: block}
+td#usermenu a:hover{color: blue; border-top: 1px solid #000000; border-bottom: 1px solid #000000}
+td#usermenu a.menuTop{}
+td#usermenu a.menuMain{}
+td#usermenu a.menuSub{}
+/* End of various liks settings */
+
+/* Start of form settings */
+input, textarea, select{background-color: #fafafa;
+	color: #555555;
+	padding: 2px;
+	margin: 3px;
+	border: 1px solid #555555}
+/* End of form settings */
+
+
+
+/* Various settings cut-n'-pasted from the 'default' theme */
+/* Havn't figured out exactly what these do yet... */
+.outer {border: 1px solid #aeaeae;}
+.head {background-color: #dcdcdc; padding: 5px; font-weight: bold;}
+.even {background-color: #eaeaea; padding: 5px;}
+.odd {background-color: #e0e0e0; padding: 5px;}
+.foot {background-color: #c2cdd6; padding: 5px; font-weight: bold;}
+tr.even td {background-color: #dee3e7; padding: 5px;}
+tr.odd td {background-color: #E9E9E9; padding: 5px;}
+
+div.errorMsg { background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+
+div.xoopsCode { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+div.xoopsQuote { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #2F5376; font-weight:bold; border: 1px solid silver; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #2F5376; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}
+
+.item {border: none}
+.itemHead {padding: 3px; background-color: #eaeaea; color: #666666; border-top: 1px dashed #aeaeae; border-right: 1px dashed #aeaeae; border-left: 1px dashed #aeaeae}
+.itemInfo {text-align: right; padding: 3px; background-color: #eaeaea; border-right: 1px dashed #aeaeae; border-bottom: 1px dashed #aeaeae; border-left: 1px dashed #aeaeae}
+.itemTitle a {font-size: 120%; font-weight: bold; font-variant: small-caps; color: #666666; background-color: transparent;}
+.itemPoster {color: #c31d1d; font-size: 90%; font-style:italic;}
+.itemPostDate {font-size: 90%; font-style:italic;}
+.itemStats {font-size: 90%; font-style:italic;}
+.itemBody {padding-left: 5px;}
+.itemText {margin-top: 5px; margin-bottom: 5px; line-height: 1.5em;}
+.itemText:first-letter {font-size: 133%; font-weight: bold;}
+.itemFoot {text-align: right; padding: 3px; background-color: #eaeaea; border: 1px dashed #aeaeae}
+.itemAdminLink {font-size: 90%;}
+.itemPermaLink {font-size: 90%;}
+
+/* End of various settings */
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+<!--
+The centerblocks.html file is used by the Legend theme 
+for Xoops 2.0.2 in order to print the centerblocks on the site.
+Check out http://www.gundersson.com for more detail if you are wondering
+about it.
+Made by Christian Gundersson
+-->
+<table class="centerblocks" cellspacing="0">
+<tr colspan="2"><td class="centerblock">
+<!-- Start center-center blocks loop -->
+<{foreach item=block from=$xoops_ccblocks}>
+<fieldset class="block">
+<legend class="blockTitle"><{$block.title}></legend>
+<div class="blockContent"><{$block.content}></div>
+</fieldset>
+<{/foreach}>
+<!-- End center-center blocks loop -->
+</td></tr>
+<tr><td class="centerblock">
+<!-- Start center-left blocks loop -->
+<{foreach item=block from=$xoops_clblocks}>
+<fieldset class="block">
+<legend class="blockTitle"><{$block.title}></legend>
+<div class="blockContent"><{$block.content}></div>
+</fieldset>
+<{/foreach}>
+<!-- End center-left blocks loop -->
+</td><td class="centerblock">		
+<!-- Start center-right blocks loop -->
+<{foreach item=block from=$xoops_crblocks}>
+<fieldset class="block">
+<legend class="blockTitle"><{$block.title}></legend>
+<div class="blockContent"><{$block.content}></div>
+</fieldset>
+<{/foreach}>
+<!-- End center-right blocks loop -->
+</td></td>
+</table>
